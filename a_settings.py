@@ -121,16 +121,16 @@ class UsersSettings():
                 #     "reverse": False              # reverse при Мартине
                 # },
                 "ANY_COINS": {
-                    "margin_size": 12.0,          # размер маржи в USDT (либо другой базовой валюте)
-                    "leverage": 16,              # размер плеча. Общий объем на сделку == (margin_size x leverage)
-                    "sl": None,                  # %, float, отрицательное значение. Отключено -- None
-                    "fallback_sl": None,           # tp на случай отказа основного тейка
-                    "tp": 0.6,  # TP             # %, float, положительное значение. Отключено -- None
-                    "tp_order_type": "LIMIT",    # MARKET | LIMIT
+                    "margin_size": 16.0,          # размер маржи в USDT (либо другой базовой валюте)
+                    "leverage": 16,               # размер плеча. Общий объем на сделку == (margin_size x leverage)
+                    "sl": None,                   # %, float, отрицательное значение. Отключено -- None
+                    "fallback_sl": None,          # tp на случай отказа основного тейка
+                    "tp": 0.6,  # TP              # %, float, положительное значение. Отключено -- None
+                    "tp_order_type": "LIMIT",     # MARKET | LIMIT
                     "fallback_tp": 0.9,           # tp на случай отказа основного тейка
                     "is_martin": False,           # использовать Мартин Гейл
                     "force_martin": False,        # Перезаходим по Мартину, не дожидаясь нового сигнала
-                    "martin_multipliter": 2.5,   # множитель Мартин Гейла
+                    "martin_multipliter": 2.5,    # множитель Мартин Гейла
                     "reverse": False              # reverse при Мартине
                 },
             },
