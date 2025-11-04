@@ -43,15 +43,24 @@ class UsersSettings():
             #     "proxy_login":'1FDJcwJR',
             #     "proxy_password": 'U2yrFg4a'
             # },
+            # "proxy": {
+            #     "is_active": True,    # -- сдох
+            #     "proxy_address": '93.157.104.3',
+            #     "proxy_port": '64514',
+            #     "proxy_login":'1FDJcwJR',
+            #     "proxy_password": 'U2yrFg4a'
+            # },
             "proxy": {
                 "is_active": True,
-                "proxy_address": '93.157.104.3',
-                "proxy_port": '64514',
-                "proxy_login":'1FDJcwJR',
+                "proxy_address": '154.222.214.132',
+                "proxy_port": '62890',
+                "proxy_login": '1FDJcwJR',
                 "proxy_password": 'U2yrFg4a'
             },
-            # 1FDJcwJR:U2yrFg4a@154.222.214.132:62890
-            
+
+            # 1FDJcwJR:U2yrFg4a@154.222.214.132:62890      
+            # curl -x 'http://154.222.214.132:62890' --proxy-user '1FDJcwJR:U2yrFg4a' https://ipinfo.io/json
+     
 
             "core": { 
                 "margin_type": "CROSSED",         # Тип маржи. Кросс-маржа → "CROSSED", Изолированная → "ISOLATED"
